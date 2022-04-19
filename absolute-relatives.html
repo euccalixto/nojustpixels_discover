@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>doc</title>
+
+	<style type="text/css">
+		.divone{
+			font-size: 2px; /*absolute*/
+		}
+
+		.divone p{
+			font-size: 5em; /*relative: have 10px, cause (parent*element) = 2*5 = 10*/
+		}
+
+		h2{
+			font-size: 1rem /*relatve: have 16px, cause (sizeHTML*element) = 16*1 = 16*/;
+		}
+
+		footer{
+			width: 100vw /*relative: all width of screen*/;
+			height: 20vh /*relative: 20% width of screen*/;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="divone">
+		<p>
+			Hii
+		</p>
+	</div>
+</body>
+</html>
